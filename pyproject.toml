@@ -1,0 +1,20 @@
+[project]
+name = "jcpv2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "duckdb>=1.4.3",
+    "milvus-lite>=2.5.1",
+    "numpy>=2.0.2",
+    "pandas>=2.3.3",
+    "plotly>=6.5.0",
+    "pyarrow>=21.0.0",
+    "pymilvus>=2.6.5",
+    "python-dotenv>=1.2.1",
+    "s3fs>=2025.10.0",
+    "scikit-learn>=1.6.1",
+    "streamlit>=1.50.0",
+    "umap-learn>=0.5.9.post2",
+]
